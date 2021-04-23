@@ -1,0 +1,2 @@
+gcc libiouring_copy.c -I /home/atr/local/include/ -luring -L /home/atr/local/lib/
+gcc iouring_copy.c syscall.c -I /home/atr/local/include/
